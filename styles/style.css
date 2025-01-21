@@ -19,6 +19,7 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
+
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -86,14 +87,12 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
-
 .apresentacao__imagem{
     width: 50%;
 }
-
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
@@ -104,25 +103,18 @@ body{
     font-weight: 400;
 }
 
-
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .cabecalho{
-        padding: 10%;
+         padding: 10%;  
     }
-
     .cabecalho__menu{
         justify-content: center;
     }
-   
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
     }
-
     .apresentacao__conteudo{
         width: auto;
     }
-
-
 }
-
